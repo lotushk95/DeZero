@@ -38,15 +38,19 @@ def XOR(x1, x2):
     return y
 
 if __name__ == '__main__':
+    print("AND: ")
     for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
         y = AND(xs[0], xs[1])
-        print("AND: " + str(xs) + " -> " + str(y))
+        print(f"{xs} -> {y}")
+    print("NAND: ")
     for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
         y = NAND(xs[0], xs[1])
-        print("NAND: " + str(xs) + " -> " + str(y))
+        print(f"{xs} -> {y}")   
+    print(f"OR: ")     
     for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
         y = OR(xs[0], xs[1])
-        print("OR: " + str(xs) + " -> " + str(y))
+        print(f"{xs} -> {y}")
+    print(f"XOR: ")
     for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
         y = XOR(xs[0], xs[1])
-        print("XOR: " + str(xs) + " -> " + str(y))
+        print(f"{xs} -> {y}")
