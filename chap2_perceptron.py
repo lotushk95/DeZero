@@ -46,11 +46,11 @@ if __name__ == '__main__':
     for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
         y = NAND(xs[0], xs[1])
         print(f"{xs} -> {y}")   
-    print(f"OR: ")     
+    print("OR: ")     
     for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
         y = OR(xs[0], xs[1])
         print(f"{xs} -> {y}")
-    print(f"XOR: ")
+    print("XOR: ")
     for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
         y = XOR(xs[0], xs[1])
         print(f"{xs} -> {y}")
