@@ -1,5 +1,5 @@
 
-class Mulllayer:
+class MulLayer:
     def __init__(self):
         self.x = None
         self.y = None
@@ -19,7 +19,7 @@ class Mulllayer:
         return dx, dy
     
     
-class Addlayer:
+class AddLayer:
     def __init__(self):
         pass
     
